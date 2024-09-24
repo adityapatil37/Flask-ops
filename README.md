@@ -24,7 +24,7 @@ pip install bandit
 bandit -r app.py
 ```
 
-##
+## Add SSL/TLS
 Run the following command to generate the certificate and private key:
 ```bash
 openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 365
