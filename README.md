@@ -29,4 +29,6 @@ Run the following command to generate the certificate and private key:
 ```bash
 openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 365
 ```
-
+- `key.pem`: This is your private key.
+- `cert.pem`: This is your self-signed certificate.
+- `days 365`: This sets the certificate to expire in 1 year.
